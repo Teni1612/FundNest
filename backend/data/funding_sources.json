@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "name": "Amber Grant for Women",
+    "type": "grant",
+    "amount": "$10,000",
+    "deadline": "Monthly",
+    "url": "https://ambergrantsforwomen.com",
+    "description": "Monthly grant awarded to women business owners across all industries.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 500000
+    }
+  },
+  {
+    "id": 2,
+    "name": "Latinx VC Fund",
+    "type": "vc",
+    "amount": "$100K–$500K",
+    "deadline": "Rolling",
+    "url": "https://latinxvc.com",
+    "description": "Early-stage fund focused on Latinx founders building scalable companies.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["early", "seed"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["latina", "latino", "hispanic"],
+      "revenue_max": 1000000
+    }
+  },
+  {
+    "id": 3,
+    "name": "SBA Women-Owned Small Business Program",
+    "type": "government",
+    "amount": "Varies",
+    "deadline": "Rolling",
+    "url": "https://sba.gov",
+    "description": "Federal contracting and funding program for women-owned small businesses.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 5000000
+    }
+  },
+  {
+    "id": 4,
+    "name": "Hello Alice Small Business Grant",
+    "type": "grant",
+    "amount": "$10,000–$25,000",
+    "deadline": "Quarterly",
+    "url": "https://helloalice.com/grants",
+    "description": "Grants for underrepresented small business owners including women and people of color.",
+    "criteria": {
+      "gender": ["woman", "non-binary"],
+      "stage": ["early", "growth"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 1000000
+    }
+  },
+  {
+    "id": 5,
+    "name": "Fearless Strivers Grant",
+    "type": "grant",
+    "amount": "$20,000",
+    "deadline": "Annual",
+    "url": "https://fearlessstrivers.com",
+    "description": "Grant for Black women entrepreneurs building scalable businesses.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["early", "growth"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["black", "african american"],
+      "revenue_max": 500000
+    }
+  },
+  {
+    "id": 6,
+    "name": "Texas Women's Foundation Fund",
+    "type": "grant",
+    "amount": "$5,000–$15,000",
+    "deadline": "Annual",
+    "url": "https://txwf.org",
+    "description": "Supports women entrepreneurs and leaders in Texas communities.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["Texas", "TX"],
+      "ethnicity": ["any"],
+      "revenue_max": 1000000
+    }
+  },
+  {
+    "id": 7,
+    "name": "MassChallenge Women Founders",
+    "type": "accelerator",
+    "amount": "$0 equity, $50K prize pool",
+    "deadline": "Annual",
+    "url": "https://masschallenge.org",
+    "description": "Zero-equity accelerator focused on women-led high-impact startups.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["early", "seed"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 1000000
+    }
+  },
+  {
+    "id": 8,
+    "name": "Halcyon Incubator",
+    "type": "accelerator",
+    "amount": "$75,000 + stipend",
+    "deadline": "Annual",
+    "url": "https://halcyon.house",
+    "description": "Fellowship for social impact entrepreneurs in EdTech, health, and sustainability.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["early"],
+      "sector": ["edtech", "social impact", "health"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 500000
+    }
+  },
+  {
+    "id": 9,
+    "name": "Cartier Women's Initiative",
+    "type": "grant",
+    "amount": "$100,000",
+    "deadline": "Annual",
+    "url": "https://cartierwomensinitiative.com",
+    "description": "Global grant for women-led impact-driven businesses.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["early", "growth"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 2000000
+    }
+  },
+  {
+    "id": 10,
+    "name": "IFundWomen General Grant",
+    "type": "grant",
+    "amount": "$5,000–$50,000",
+    "deadline": "Rolling",
+    "url": "https://ifundwomen.com",
+    "description": "Coaching and grant funding marketplace exclusively for women entrepreneurs.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["pre-revenue", "early", "seed"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 500000
+    }
+  },
+  {
+    "id": 11,
+    "name": "LATINA Style Business Series",
+    "type": "accelerator",
+    "amount": "$10,000",
+    "deadline": "Annual",
+    "url": "https://latinastyle.com",
+    "description": "Business development program and grants for Latina entrepreneurs across the US.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["early", "growth"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["latina", "hispanic"],
+      "revenue_max": 1000000
+    }
+  },
+  {
+    "id": 12,
+    "name": "Grameen America",
+    "type": "government",
+    "amount": "Up to $15,000",
+    "deadline": "Rolling",
+    "url": "https://grameenamerica.org",
+    "description": "Microloans and support for women living in poverty to build small businesses.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["pre-revenue", "early"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 100000
+    }
+  },
+  {
+    "id": 13,
+    "name": "Fast Forward EdTech Accelerator",
+    "type": "accelerator",
+    "amount": "$25,000",
+    "deadline": "Annual",
+    "url": "https://ffwd.org",
+    "description": "Accelerator for tech nonprofits and EdTech startups creating social impact.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["early", "seed"],
+      "sector": ["edtech", "social impact"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 500000
+    }
+  },
+  {
+    "id": 14,
+    "name": "Minority Business Development Agency Grants",
+    "type": "government",
+    "amount": "Varies",
+    "deadline": "Rolling",
+    "url": "https://mbda.gov",
+    "description": "Federal agency providing grants and support to minority-owned businesses.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["latina", "latino", "hispanic", "black", "asian", "native american"],
+      "revenue_max": 5000000
+    }
+  },
+  {
+    "id": 15,
+    "name": "Tory Burch Foundation Fellows Program",
+    "type": "accelerator",
+    "amount": "$10,000 + mentorship",
+    "deadline": "Annual",
+    "url": "https://toryburchfoundation.org",
+    "description": "Fellowship program for women entrepreneurs with education, community and capital.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["early", "seed", "growth"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 2000000
+    }
+  }
+]
