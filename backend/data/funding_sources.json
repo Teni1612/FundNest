@@ -4,24 +4,26 @@
     "name": "Amber Grant for Women",
     "type": "grant",
     "amount": "$10,000",
-    "deadline": "Monthly",
+    "deadline": "2026-04-30",
     "url": "https://ambergrantsforwomen.com",
-    "description": "Monthly grant awarded to women business owners across all industries.",
+    "description": "Monthly grant awarded to women business owners across all industries in the US.",
     "criteria": {
       "gender": ["woman"],
       "stage": ["any"],
       "sector": ["any"],
       "location": ["USA"],
       "ethnicity": ["any"],
-      "revenue_max": 500000
-    }
+      "revenue_max": 500000,
+      "parent_friendly": true
+    },
+    "weights": { "gender": 30, "ethnicity": 0, "location": 10, "stage": 15, "sector": 10, "identity_bonus": 10, "revenue": 5 }
   },
   {
     "id": 2,
     "name": "Latinx VC Fund",
     "type": "vc",
     "amount": "$100K–$500K",
-    "deadline": "Rolling",
+    "deadline": "2026-06-01",
     "url": "https://latinxvc.com",
     "description": "Early-stage fund focused on Latinx founders building scalable companies.",
     "criteria": {
@@ -31,14 +33,15 @@
       "location": ["USA"],
       "ethnicity": ["latina", "latino", "hispanic"],
       "revenue_max": 1000000
-    }
+    },
+    "weights": { "gender": 5, "ethnicity": 35, "location": 10, "stage": 25, "sector": 10, "identity_bonus": 10, "revenue": 5 }
   },
   {
     "id": 3,
     "name": "SBA Women-Owned Small Business Program",
     "type": "government",
     "amount": "Varies",
-    "deadline": "Rolling",
+    "deadline": "2026-12-31",
     "url": "https://sba.gov",
     "description": "Federal contracting and funding program for women-owned small businesses.",
     "criteria": {
@@ -47,15 +50,17 @@
       "sector": ["any"],
       "location": ["USA"],
       "ethnicity": ["any"],
-      "revenue_max": 5000000
-    }
+      "revenue_max": 5000000,
+      "parent_friendly": true
+    },
+    "weights": { "gender": 35, "ethnicity": 0, "location": 10, "stage": 10, "sector": 10, "identity_bonus": 10, "revenue": 5 }
   },
   {
     "id": 4,
     "name": "Hello Alice Small Business Grant",
     "type": "grant",
     "amount": "$10,000–$25,000",
-    "deadline": "Quarterly",
+    "deadline": "2026-05-15",
     "url": "https://helloalice.com/grants",
     "description": "Grants for underrepresented small business owners including women and people of color.",
     "criteria": {
@@ -64,15 +69,17 @@
       "sector": ["any"],
       "location": ["USA"],
       "ethnicity": ["any"],
-      "revenue_max": 1000000
-    }
+      "revenue_max": 1000000,
+      "parent_friendly": true
+    },
+    "weights": { "gender": 25, "ethnicity": 10, "location": 10, "stage": 25, "sector": 10, "identity_bonus": 15, "revenue": 5 }
   },
   {
     "id": 5,
     "name": "Fearless Strivers Grant",
     "type": "grant",
     "amount": "$20,000",
-    "deadline": "Annual",
+    "deadline": "2026-04-15",
     "url": "https://fearlessstrivers.com",
     "description": "Grant for Black women entrepreneurs building scalable businesses.",
     "criteria": {
@@ -82,16 +89,17 @@
       "location": ["USA"],
       "ethnicity": ["black", "african american"],
       "revenue_max": 500000
-    }
+    },
+    "weights": { "gender": 25, "ethnicity": 35, "location": 5, "stage": 20, "sector": 5, "identity_bonus": 5, "revenue": 5 }
   },
   {
     "id": 6,
     "name": "Texas Women's Foundation Fund",
     "type": "grant",
     "amount": "$5,000–$15,000",
-    "deadline": "Annual",
+    "deadline": "2026-05-01",
     "url": "https://txwf.org",
-    "description": "Supports women entrepreneurs and leaders in Texas communities.",
+    "description": "Supports women entrepreneurs and leaders specifically in Texas communities.",
     "criteria": {
       "gender": ["woman"],
       "stage": ["any"],
@@ -99,14 +107,15 @@
       "location": ["Texas", "TX"],
       "ethnicity": ["any"],
       "revenue_max": 1000000
-    }
+    },
+    "weights": { "gender": 25, "ethnicity": 0, "location": 40, "stage": 10, "sector": 10, "identity_bonus": 10, "revenue": 5 }
   },
   {
     "id": 7,
     "name": "MassChallenge Women Founders",
     "type": "accelerator",
     "amount": "$0 equity, $50K prize pool",
-    "deadline": "Annual",
+    "deadline": "2026-07-01",
     "url": "https://masschallenge.org",
     "description": "Zero-equity accelerator focused on women-led high-impact startups.",
     "criteria": {
@@ -116,14 +125,15 @@
       "location": ["USA"],
       "ethnicity": ["any"],
       "revenue_max": 1000000
-    }
+    },
+    "weights": { "gender": 30, "ethnicity": 5, "location": 10, "stage": 30, "sector": 10, "identity_bonus": 10, "revenue": 5 }
   },
   {
     "id": 8,
     "name": "Halcyon Incubator",
     "type": "accelerator",
     "amount": "$75,000 + stipend",
-    "deadline": "Annual",
+    "deadline": "2026-08-15",
     "url": "https://halcyon.house",
     "description": "Fellowship for social impact entrepreneurs in EdTech, health, and sustainability.",
     "criteria": {
@@ -133,16 +143,17 @@
       "location": ["USA"],
       "ethnicity": ["any"],
       "revenue_max": 500000
-    }
+    },
+    "weights": { "gender": 5, "ethnicity": 5, "location": 10, "stage": 30, "sector": 35, "identity_bonus": 10, "revenue": 5 }
   },
   {
     "id": 9,
     "name": "Cartier Women's Initiative",
     "type": "grant",
     "amount": "$100,000",
-    "deadline": "Annual",
+    "deadline": "2026-09-30",
     "url": "https://cartierwomensinitiative.com",
-    "description": "Global grant for women-led impact-driven businesses.",
+    "description": "Global grant for women-led impact-driven businesses across all sectors.",
     "criteria": {
       "gender": ["woman"],
       "stage": ["early", "growth"],
@@ -150,14 +161,15 @@
       "location": ["USA"],
       "ethnicity": ["any"],
       "revenue_max": 2000000
-    }
+    },
+    "weights": { "gender": 35, "ethnicity": 0, "location": 10, "stage": 25, "sector": 15, "identity_bonus": 10, "revenue": 5 }
   },
   {
     "id": 10,
     "name": "IFundWomen General Grant",
     "type": "grant",
     "amount": "$5,000–$50,000",
-    "deadline": "Rolling",
+    "deadline": "2026-04-20",
     "url": "https://ifundwomen.com",
     "description": "Coaching and grant funding marketplace exclusively for women entrepreneurs.",
     "criteria": {
@@ -167,14 +179,15 @@
       "location": ["USA"],
       "ethnicity": ["any"],
       "revenue_max": 500000
-    }
+    },
+    "weights": { "gender": 35, "ethnicity": 5, "location": 5, "stage": 25, "sector": 15, "identity_bonus": 10, "revenue": 5 }
   },
   {
     "id": 11,
     "name": "LATINA Style Business Series",
     "type": "accelerator",
     "amount": "$10,000",
-    "deadline": "Annual",
+    "deadline": "2026-06-30",
     "url": "https://latinastyle.com",
     "description": "Business development program and grants for Latina entrepreneurs across the US.",
     "criteria": {
@@ -184,33 +197,36 @@
       "location": ["USA"],
       "ethnicity": ["latina", "hispanic"],
       "revenue_max": 1000000
-    }
+    },
+    "weights": { "gender": 20, "ethnicity": 35, "location": 5, "stage": 20, "sector": 10, "identity_bonus": 5, "revenue": 5 }
   },
   {
     "id": 12,
-    "name": "Grameen America",
+    "name": "Grameen America Microloan",
     "type": "government",
     "amount": "Up to $15,000",
-    "deadline": "Rolling",
+    "deadline": "2026-05-31",
     "url": "https://grameenamerica.org",
-    "description": "Microloans and support for women living in poverty to build small businesses.",
+    "description": "Microloans and support for women in poverty building small businesses. Single mothers prioritized.",
     "criteria": {
       "gender": ["woman"],
       "stage": ["pre-revenue", "early"],
       "sector": ["any"],
       "location": ["USA"],
       "ethnicity": ["any"],
-      "revenue_max": 100000
-    }
+      "revenue_max": 100000,
+      "parent_friendly": true
+    },
+    "weights": { "gender": 25, "ethnicity": 5, "location": 10, "stage": 20, "sector": 5, "identity_bonus": 30, "revenue": 5 }
   },
   {
     "id": 13,
     "name": "Fast Forward EdTech Accelerator",
     "type": "accelerator",
     "amount": "$25,000",
-    "deadline": "Annual",
+    "deadline": "2026-07-15",
     "url": "https://ffwd.org",
-    "description": "Accelerator for tech nonprofits and EdTech startups creating social impact.",
+    "description": "Accelerator for EdTech startups creating social impact through education technology.",
     "criteria": {
       "gender": ["any"],
       "stage": ["early", "seed"],
@@ -218,33 +234,35 @@
       "location": ["USA"],
       "ethnicity": ["any"],
       "revenue_max": 500000
-    }
+    },
+    "weights": { "gender": 5, "ethnicity": 5, "location": 10, "stage": 25, "sector": 40, "identity_bonus": 10, "revenue": 5 }
   },
   {
     "id": 14,
-    "name": "Minority Business Development Agency Grants",
+    "name": "Minority Business Development Agency",
     "type": "government",
     "amount": "Varies",
-    "deadline": "Rolling",
+    "deadline": "2026-12-31",
     "url": "https://mbda.gov",
-    "description": "Federal agency providing grants and support to minority-owned businesses.",
+    "description": "Federal agency providing grants and support to minority-owned businesses across the US.",
     "criteria": {
       "gender": ["any"],
       "stage": ["any"],
       "sector": ["any"],
       "location": ["USA"],
-      "ethnicity": ["latina", "latino", "hispanic", "black", "asian", "native american"],
+      "ethnicity": ["latina", "latino", "hispanic", "black", "african american", "asian", "native american", "pacific islander"],
       "revenue_max": 5000000
-    }
+    },
+    "weights": { "gender": 5, "ethnicity": 40, "location": 10, "stage": 15, "sector": 15, "identity_bonus": 10, "revenue": 5 }
   },
   {
     "id": 15,
-    "name": "Tory Burch Foundation Fellows Program",
+    "name": "Tory Burch Foundation Fellows",
     "type": "accelerator",
     "amount": "$10,000 + mentorship",
-    "deadline": "Annual",
+    "deadline": "2026-10-01",
     "url": "https://toryburchfoundation.org",
-    "description": "Fellowship program for women entrepreneurs with education, community and capital.",
+    "description": "Fellowship for women entrepreneurs combining education, community and capital access.",
     "criteria": {
       "gender": ["woman"],
       "stage": ["early", "seed", "growth"],
@@ -252,6 +270,466 @@
       "location": ["USA"],
       "ethnicity": ["any"],
       "revenue_max": 2000000
-    }
+    },
+    "weights": { "gender": 35, "ethnicity": 5, "location": 5, "stage": 25, "sector": 15, "identity_bonus": 10, "revenue": 5 }
+  },
+  {
+    "id": 16,
+    "name": "Asian Women Giving Circle",
+    "type": "grant",
+    "amount": "$5,000–$20,000",
+    "deadline": "2026-05-01",
+    "url": "https://asianwomengivingcircle.org",
+    "description": "Grants supporting Asian women entrepreneurs and community leaders in the US.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["asian", "chinese", "japanese", "korean", "vietnamese", "indian", "filipino", "south asian", "east asian", "southeast asian"],
+      "revenue_max": 1000000
+    },
+    "weights": { "gender": 20, "ethnicity": 40, "location": 5, "stage": 15, "sector": 10, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 17,
+    "name": "Gold House Ventures",
+    "type": "vc",
+    "amount": "$50K–$250K",
+    "deadline": "2026-08-01",
+    "url": "https://goldhouse.org",
+    "description": "VC fund backing Asian and Pacific Islander founders across all sectors.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["early", "seed"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["asian", "pacific islander", "chinese", "japanese", "korean", "vietnamese", "indian", "filipino", "south asian"],
+      "revenue_max": 2000000
+    },
+    "weights": { "gender": 5, "ethnicity": 40, "location": 10, "stage": 25, "sector": 10, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 18,
+    "name": "Single Mother Scholarship Fund",
+    "type": "grant",
+    "amount": "$5,000–$15,000",
+    "deadline": "2026-04-10",
+    "url": "https://singlemother.org",
+    "description": "Grants specifically for single mothers starting or growing small businesses.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["pre-revenue", "early"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 200000,
+      "parent_friendly": true
+    },
+    "weights": { "gender": 20, "ethnicity": 0, "location": 5, "stage": 15, "sector": 5, "identity_bonus": 50, "revenue": 5 }
+  },
+  {
+    "id": 19,
+    "name": "V-WISE Veterans Women Entrepreneurship",
+    "type": "accelerator",
+    "amount": "Training + $10,000",
+    "deadline": "2026-06-15",
+    "url": "https://vwise.org",
+    "description": "Training and funding program specifically for women veterans starting businesses.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["pre-revenue", "early"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 500000,
+      "veteran_friendly": true
+    },
+    "weights": { "gender": 20, "ethnicity": 0, "location": 5, "stage": 15, "sector": 5, "identity_bonus": 50, "revenue": 5 }
+  },
+  {
+    "id": 20,
+    "name": "Hivers and Strivers Veteran Fund",
+    "type": "vc",
+    "amount": "$250K–$1M",
+    "deadline": "2026-09-01",
+    "url": "https://hiversandstrivers.com",
+    "description": "Angel fund investing exclusively in startups founded by US military veterans.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["early", "seed"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 2000000,
+      "veteran_friendly": true
+    },
+    "weights": { "gender": 5, "ethnicity": 0, "location": 10, "stage": 25, "sector": 10, "identity_bonus": 45, "revenue": 5 }
+  },
+  {
+    "id": 21,
+    "name": "Immigrant Entrepreneur Lab",
+    "type": "accelerator",
+    "amount": "$20,000 + mentorship",
+    "deadline": "2026-07-31",
+    "url": "https://immigrantentrepreneurlab.com",
+    "description": "Accelerator supporting immigrant founders building scalable companies in the US.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["early", "seed"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 500000,
+      "immigrant_friendly": true
+    },
+    "weights": { "gender": 5, "ethnicity": 5, "location": 10, "stage": 25, "sector": 10, "identity_bonus": 40, "revenue": 5 }
+  },
+  {
+    "id": 22,
+    "name": "New American Economy Grant",
+    "type": "grant",
+    "amount": "$10,000–$50,000",
+    "deadline": "2026-11-01",
+    "url": "https://newamericaneconomy.org",
+    "description": "Grants for immigrant entrepreneurs contributing to local economies across the US.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["any"],
+      "sector": ["an  y"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 2000000,
+      "immigrant_friendly": true
+    },
+    "weights": { "gender": 5, "ethnicity": 5, "location": 10, "stage": 15, "sector": 15, "identity_bonus": 45, "revenue": 5 }
+  },
+  {
+    "id": 23,
+    "name": "National Black MBA Scale-Up Pitch",
+    "type": "grant",
+    "amount": "$10,000–$50,000",
+    "deadline": "2026-05-20",
+    "url": "https://nbmbaa.org",
+    "description": "Pitch competition and grants for Black entrepreneurs scaling their businesses.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["seed", "growth"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["black", "african american"],
+      "revenue_max": 5000000
+    },
+    "weights": { "gender": 5, "ethnicity": 40, "location": 5, "stage": 25, "sector": 15, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 24,
+    "name": "digitalundivided FOCUS Fellowship",
+    "type": "accelerator",
+    "amount": "$15,000 + investment",
+    "deadline": "2026-04-25",
+    "url": "https://digitalundivided.com",
+    "description": "Accelerator for Black and Latina women building tech startups with social impact.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["early", "seed"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["black", "african american", "latina", "hispanic"],
+      "revenue_max": 1000000
+    },
+    "weights": { "gender": 20, "ethnicity": 35, "location": 5, "stage": 20, "sector": 10, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 25,
+    "name": "Disability:IN Entrepreneurship Program",
+    "type": "accelerator",
+    "amount": "$10,000 + support",
+    "deadline": "2026-08-31",
+    "url": "https://disabilityin.org",
+    "description": "Support and funding for entrepreneurs with disabilities building inclusive businesses.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 2000000,
+      "disability_friendly": true
+    },
+    "weights": { "gender": 5, "ethnicity": 5, "location": 10, "stage": 15, "sector": 15, "identity_bonus": 45, "revenue": 5 }
+  },
+  {
+    "id": 26,
+    "name": "StartOut LGBTQ+ Growth Lab",
+    "type": "accelerator",
+    "amount": "$15,000 + mentorship",
+    "deadline": "2026-06-01",
+    "url": "https://startout.org",
+    "description": "Accelerator exclusively for LGBTQ+ entrepreneurs across all sectors.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["early", "seed"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 1000000,
+      "lgbtq_friendly": true
+    },
+    "weights": { "gender": 5, "ethnicity": 5, "location": 10, "stage": 25, "sector": 10, "identity_bonus": 40, "revenue": 5 }
+  },
+  {
+    "id": 27,
+    "name": "Women of Color in Technology Grant",
+    "type": "grant",
+    "amount": "$10,000",
+    "deadline": "2026-04-05",
+    "url": "https://woctech.org",
+    "description": "Grants for women of color building technology companies across any sector.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["black", "african american", "latina", "hispanic", "asian", "native american", "pacific islander"],
+      "revenue_max": 1000000
+    },
+    "weights": { "gender": 20, "ethnicity": 40, "location": 5, "stage": 15, "sector": 10, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 28,
+    "name": "Camelback Ventures EdTech Fellowship",
+    "type": "vc",
+    "amount": "$25,000–$100,000",
+    "deadline": "2026-05-10",
+    "url": "https://camelbackventures.org",
+    "description": "Fellowship and investment for Black and Latino EdTech entrepreneurs.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["pre-revenue", "early"],
+      "sector": ["edtech", "social impact"],
+      "location": ["USA"],
+      "ethnicity": ["black", "african american", "latina", "latino", "hispanic"],
+      "revenue_max": 500000
+    },
+    "weights": { "gender": 5, "ethnicity": 30, "location": 5, "stage": 20, "sector": 30, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 29,
+    "name": "South Asian Bar Association Grant",
+    "type": "grant",
+    "amount": "$5,000–$15,000",
+    "deadline": "2026-09-15",
+    "url": "https://saba.net",
+    "description": "Grants for South Asian entrepreneurs and professionals building businesses in the US.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["south asian", "indian", "pakistani", "bangladeshi", "sri lankan", "nepali", "asian"],
+      "revenue_max": 1000000
+    },
+    "weights": { "gender": 5, "ethnicity": 50, "location": 5, "stage": 15, "sector": 15, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 30,
+    "name": "SBA 8(a) Business Development Program",
+    "type": "government",
+    "amount": "Federal contracts",
+    "deadline": "2026-12-31",
+    "url": "https://sba.gov/8a",
+    "description": "Federal program for socially and economically disadvantaged small business owners.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["black", "african american", "latina", "latino", "hispanic", "asian", "native american", "pacific islander"],
+      "revenue_max": 10000000
+    },
+    "weights": { "gender": 5, "ethnicity": 35, "location": 10, "stage": 15, "sector": 15, "identity_bonus": 15, "revenue": 5 }
+  },
+  {
+    "id": 31,
+    "name": "New York Women's Foundation",
+    "type": "grant",
+    "amount": "$10,000–$30,000",
+    "deadline": "2026-05-15",
+    "url": "https://nywf.org",
+    "description": "Grants for women entrepreneurs and community leaders based in New York.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["New York", "NY"],
+      "ethnicity": ["any"],
+      "revenue_max": 1000000,
+      "parent_friendly": true
+    },
+    "weights": { "gender": 20, "ethnicity": 5, "location": 40, "stage": 15, "sector": 10, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 32,
+    "name": "California Women's Business Center",
+    "type": "government",
+    "amount": "$5,000–$20,000",
+    "deadline": "2026-06-30",
+    "url": "https://cwbcgrants.org",
+    "description": "Grants and support for women-owned businesses in California.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["California", "CA"],
+      "ethnicity": ["any"],
+      "revenue_max": 2000000
+    },
+    "weights": { "gender": 20, "ethnicity": 5, "location": 40, "stage": 15, "sector": 10, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 33,
+    "name": "Chicago INVEST South/West Grant",
+    "type": "government",
+    "amount": "$10,000–$50,000",
+    "deadline": "2026-07-01",
+    "url": "https://chicago.gov/investsouthwest",
+    "description": "City of Chicago grants for entrepreneurs in underserved South and West Side communities.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["Chicago", "Illinois", "IL"],
+      "ethnicity": ["any"],
+      "revenue_max": 2000000
+    },
+    "weights": { "gender": 5, "ethnicity": 10, "location": 45, "stage": 15, "sector": 15, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 34,
+    "name": "HealthTech Women Founders Grant",
+    "type": "grant",
+    "amount": "$25,000",
+    "deadline": "2026-08-01",
+    "url": "https://healthtechwomen.org",
+    "description": "Grant for women building healthcare technology solutions addressing underserved communities.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["early", "seed"],
+      "sector": ["healthtech", "health", "biotech"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 1000000
+    },
+    "weights": { "gender": 25, "ethnicity": 5, "location": 5, "stage": 20, "sector": 35, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 35,
+    "name": "CleanTech Open Accelerator",
+    "type": "accelerator",
+    "amount": "$10,000–$100,000",
+    "deadline": "2026-09-30",
+    "url": "https://cleantechopen.org",
+    "description": "Accelerator for clean technology and sustainability startups across all stages.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["early", "seed", "growth"],
+      "sector": ["cleantech", "sustainability", "energy"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 5000000
+    },
+    "weights": { "gender": 5, "ethnicity": 5, "location": 5, "stage": 20, "sector": 50, "identity_bonus": 5, "revenue": 10 }
+  },
+  {
+    "id": 36,
+    "name": "Echoing Green Social Entrepreneur Fellowship",
+    "type": "grant",
+    "amount": "$90,000 over 2 years",
+    "deadline": "2026-10-15",
+    "url": "https://echoinggreen.org",
+    "description": "Fellowship for Black social entrepreneurs driving systemic change in education and health.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["early", "seed"],
+      "sector": ["social impact", "edtech", "healthtech"],
+      "location": ["USA"],
+      "ethnicity": ["black", "african american"],
+      "revenue_max": 500000
+    },
+    "weights": { "gender": 5, "ethnicity": 30, "location": 5, "stage": 20, "sector": 30, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 37,
+    "name": "Florida Black Business Loan Program",
+    "type": "government",
+    "amount": "Up to $75,000",
+    "deadline": "2026-06-01",
+    "url": "https://floridajobs.org",
+    "description": "State loan program for Black-owned businesses in Florida.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["Florida", "FL"],
+      "ethnicity": ["black", "african american"],
+      "revenue_max": 3000000
+    },
+    "weights": { "gender": 5, "ethnicity": 30, "location": 40, "stage": 10, "sector": 5, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 38,
+    "name": "Asian Pacific Fund — SF Bay Area",
+    "type": "grant",
+    "amount": "$5,000–$20,000",
+    "deadline": "2026-04-30",
+    "url": "https://asianpacificfund.org",
+    "description": "Grants for Asian Pacific Islander entrepreneurs in the San Francisco Bay Area.",
+    "criteria": {
+      "gender": ["any"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["California", "CA", "San Francisco", "Bay Area"],
+      "ethnicity": ["asian", "pacific islander", "chinese", "japanese", "korean", "vietnamese", "filipino"],
+      "revenue_max": 1000000
+    },
+    "weights": { "gender": 5, "ethnicity": 30, "location": 35, "stage": 10, "sector": 10, "identity_bonus": 5, "revenue": 5 }
+  },
+  {
+    "id": 39,
+    "name": "Motherhood and Entrepreneurship Fund",
+    "type": "grant",
+    "amount": "$7,500",
+    "deadline": "2026-05-05",
+    "url": "https://motherhoodentrepreneurs.org",
+    "description": "Dedicated fund for mother entrepreneurs balancing childcare and business growth.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["pre-revenue", "early"],
+      "sector": ["any"],
+      "location": ["USA"],
+      "ethnicity": ["any"],
+      "revenue_max": 300000,
+      "parent_friendly": true
+    },
+    "weights": { "gender": 15, "ethnicity": 0, "location": 5, "stage": 15, "sector": 5, "identity_bonus": 55, "revenue": 5 }
+  },
+  {
+    "id": 40,
+    "name": "Boston Women's Workforce Council Grant",
+    "type": "grant",
+    "amount": "$10,000–$25,000",
+    "deadline": "2026-04-15",
+    "url": "https://bwwc.org",
+    "description": "Grants for women-owned businesses in the Greater Boston area.",
+    "criteria": {
+      "gender": ["woman"],
+      "stage": ["any"],
+      "sector": ["any"],
+      "location": ["Boston", "Massachusetts", "MA"],
+      "ethnicity": ["any"],
+      "revenue_max": 1000000
+    },
+    "weights": { "gender": 20, "ethnicity": 5, "location": 40, "stage": 15, "sector": 10, "identity_bonus": 5, "revenue": 5 }
   }
 ]

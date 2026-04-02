@@ -16,8 +16,17 @@ print("Loading embedding model...")
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 print("Embedding model ready.")
 
-with open("data/funding_sources.json") as f:
-    FUNDING_SOURCES = json.load(f)
+from supabase import create_client
+
+supabase = create_client(
+    os.getenv("SUPABASE_URL"),
+    os.getenv("SUPABASE_ANON_KEY")
+)
+
+print("Loading funding sources from database...")
+result = supabase.table("funding_sources").select("*").execute()
+FUNDING_SOURCES = result.data
+print(f"Loaded {len(FUNDING_SOURCES)} funding sources from database.")
 
 # Pre-compute fund embeddings at startup
 print("Pre-computing fund embeddings...")
